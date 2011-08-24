@@ -13,9 +13,9 @@ pinboard.config({
 
 pinboard.all(function(data) {
     data.forEach(function(item, index) {
-        db.save("pin" + index, data[index], function (err, res) {
+        db.save("pin" + index, item, function (err, res) {
             if (err) throw err;
-            console.log( data[index].href + ' saved!' )
+            console.log( item.href + ' saved!' )
       });
     });
 });

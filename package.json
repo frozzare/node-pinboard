@@ -1,0 +1,29 @@
+{
+    "name": "pinboard",
+    "description": "A node.js module to access Pinboard.in via its API",
+    "tags": [
+        "pinboard",
+        "api",
+        "bookmarks",
+        "util",
+        "utility"
+    ],
+    "version": "0.1.0",
+    "author": "Fredrik Forsmo <fredrik.forsmo@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/duofy/node-pinboard.git"
+    },
+    "bugs": {
+        "web": "http://github.com/duofy/node-pinboard/issues"
+    },
+    "contributors":[{
+        "name": "Duofy team", 
+        "email": "hello@duofy.com"
+    }],
+    "dependencies": {
+        "request": "2.0.4",
+        "xml2json": "0.2.2"
+    },
+    "main": "./index"
+}

@@ -20,8 +20,6 @@ then you need to auth yourself so you are good to go with the API
         format: 'json' // or 'xml', default is 'json'. 
     });
 
-the default format for `node-pinboard` is json. but 'xml' is default on Pinboard API, so for thoose method that don't have the format support we get the xml and parse it into json if you have json format on that method request.
-
 all Pinboard methods is paste into the `pinboard.get` function, e.g.
 
     pinboard.get( method, [options,] callback );

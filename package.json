@@ -8,14 +8,14 @@
         "util",
         "utility"
     ],
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "Fredrik Forsmo <fredrik.forsmo@gmail.com>",
     "repository": {
         "type": "git",
-        "url": "http://github.com/duofy/node-pinboard.git"
+        "url": "http://github.com/frozzare/node-pinboard.git"
     },
     "bugs": {
-        "web": "http://github.com/duofy/node-pinboard/issues"
+        "web": "http://github.com/frozzare/node-pinboard/issues"
     },
     "dependencies": {
         "request": "2.0.4"

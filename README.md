@@ -59,11 +59,11 @@ all callback function have the data argument `function(data) {...}`
 `pinboard.config(options)` `pinboard.get(method, [options,] callback)` `pinboard.all([options,] callback)` `pinboard.add([options,] callback)` `pinboard.destroy([options,] callback)` `pinboard.tags([options,] callback)`
 
 # meta
-    * code: `git clone git://github.com/duofy/node-pinboard.git`
-    * home: <http://github.com/duofy/node-pinboard>
-    * bugs: <http://github.com/duofy/node-pinboard/issues>
+    * code: `git clone git://github.com/frozzare/node-pinboard.git`
+    * home: <http://github.com/frozzare/node-pinboard>
+    * bugs: <http://github.com/frozzare/node-pinboard/issues>
 
 # copyright and license 
 `node-pinboard` is release under MIT license.
 
-Copyright 2011 [Fredrik Forsmo](http://forsmo.me), [Duofy team](http://duofy.com)
+Copyright 2011 [Fredrik Forsmo](http://forsmo.me)
